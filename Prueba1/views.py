@@ -12,7 +12,12 @@ def whoAmI(request):
     misDatos = {"dia" : ahora} 
     return render(request, "whoami.html", misDatos)
 
-def contactUs(request):
+def menu(request):
+    ahora = datetime.now().strftime("%D")
+    misDatos = {"dia" : ahora} 
+    return render(request, "menu.html", misDatos)
+
+def Pedido(request):
     ahora = datetime.now().strftime("%D")
     misDatos = {"dia" : ahora} 
     return render(request, "contactus.html", misDatos)
