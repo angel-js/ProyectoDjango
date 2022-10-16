@@ -23,7 +23,7 @@
           <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" href="{% url 'menu' %}">Menú</a>
+                <a class="nav-link" href="{% url 'promo' %}">Promociones</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="{% url 'pedido' %}">Haz tu pedido!</a>
@@ -49,7 +49,7 @@
               
                     <!-- Modal Header -->
                     <div class="modal-header" style="background-color: #00000074;">
-                      <h4 class="modal-title" style="color: #000000"><b>Sushi Ryge</b></h4>
+                      <h4 class="modal-title" style="color: #000000"><b>Sushi Fukusaio</b></h4>
                       <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
                     </div>
                    <!-- Modal body -->
@@ -110,46 +110,46 @@
 
 <!-- Tarjetas -->
 <div class="container-fluid container-sm">
-    <div class="row m-0 pt-5 d-flex justify-content-between">
-        <div class="col-12 col-sm-5 col-md-3 col-lg-2 p-2 m-1">
+    <div class="row m-0 pt-5 d-flex justify-content-evenly">
+        <div class="col-12 col-sm-5 col-md-4 col-lg-3 p-2 m-1">
             <div class="card" style="width: 100%;">
-                <img src="../static/Prueba1/media/nigiri.png" class="card-img-top" alt="...">
+                <img src="{% static 'Prueba1/media/nigiri.png' %}" class="card-img-top" alt="...">
                 <div class="card-body">
                 <h4 class="t-tarjetas" style="color:#000000;">Nigiri 10 piezas</h4>
                   <p class="card-text" style="color: #000000">Piezas de arroz con una capa del salmón al mejor estilo tradicional Japonés</p>
                 </div>
               </div> 
         </div>
-        <div class="col-12 col-sm-5 col-md-3 col-lg-2 p-2 m-1">
+        <div class="col-12 col-sm-5 col-md-4 col-lg-3 p-2 m-1">
             <div class="card" style="width: 100%;">
-                <img src="../static/Prueba1/media/RolEspecial.png" class="card-img-top" alt="...">
+                <img src="{% static 'Prueba1/media/RolEspecial.png' %}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h4 class="t-tarjetas" style="color:#000000;">Rol Especial 10 piezas</h4>
                     <p class="card-text" style="color: #000000">Rol premium sin arroz, relleno de atún magro, camarón y palta con una cubierta de huevos tobiko</p>
                 </div>
               </div> 
         </div>
-        <div class="col-12 col-sm-5 col-md-3 col-lg-2 p-2 m-1">
+        <div class="col-12 col-sm-5 col-md-4 col-lg-3 p-2 m-1">
             <div class="card" style="width: 100%;">
-                <img src="../static/Prueba1/media/RolEspecial2.png" class="card-img-top" alt="...">
+                <img src="{% static 'Prueba1/media/RolEspecial2.png' %}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h4 class="t-tarjetas" style="color:#000000;">Rol Pulpo 10 piezas</h4>
                   <p class="card-text" style="color: #000000">Rol relleno de camarón empanizado y palta con una cobertura de Pulpo</p>
                 </div>
               </div> 
         </div>
-        <div class="col-12 col-sm-5 col-md-3 col-lg-2 p-2 m-1">
+        <div class="col-12 col-sm-5 col-md-4 col-lg-3 p-2 m-1">
             <div class="card" style="width: 100%;">
-                <img src="../static/Prueba1/media/RolVegano.png" class="card-img-top" alt="...">
+                <img src="{% static 'Prueba1/media/RolVegano.png' %}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h4 class="t-tarjetas" style="color:#000000;">Rol Vegetariano 10 piezas</h4>
                   <p class="card-text" style="color: #000000">Relleno de palmito con pepino y palta con una cobertura de palta y aderezo teriyaki</p>
                 </div>
               </div> 
         </div>
-        <div class="col-12 col-sm-5 col-md-3 col-lg-2 p-2 m-1">
+        <div class="col-12 col-sm-5 col-md-4 col-lg-3 p-2 m-1">
             <div class="card" style="width: 100%;">
-                <img src="../static/Prueba1/media/56mix.png" class="card-img-top" alt="...">
+                <img src="{% static 'Prueba1/media/56mix.png' %}" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h4 class="t-tarjetas" style="color:#000000;">Promoción 60 Piezas</h4>
                   <p class="card-text" style="color: #000000">20 roles tempura, 10 Roles Palta, 10 Roles Ceviche, 10 Roles Salmón, 10 Roles Camarón </p>

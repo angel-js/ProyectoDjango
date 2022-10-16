@@ -12,10 +12,10 @@ def whoAmI(request):
     misDatos = {"dia" : ahora} 
     return render(request, "whoami.html", misDatos)
 
-def menu(request):
+def prom(request):
     ahora = datetime.now().strftime("%D")
     misDatos = {"dia" : ahora} 
-    return render(request, "menu.html", misDatos)
+    return render(request, "promo.html", misDatos)
 
 def Pedido(request):
     ahora = datetime.now().strftime("%D")
